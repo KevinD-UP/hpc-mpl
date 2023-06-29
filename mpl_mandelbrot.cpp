@@ -208,8 +208,6 @@ int main(int argc, char *argv[]) {
   const int rank{comm_world.rank()};
   const int size{comm_world.size()};
 
-  std::cout << size << std::endl;
-
   const int global_size = 512;
 
   int local_size = global_size / size;
