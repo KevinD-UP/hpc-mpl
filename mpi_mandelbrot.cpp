@@ -283,7 +283,7 @@ int main(int argc, char *argv[]) {
     } // end for iRank
 
     // finaly write complete image
-    write_ppm(image, "mpi_mandelbrot.ppm", params);
+    write_ppm(image, "mandelbrot.ppm", params);
 
     delete[] image;
 
