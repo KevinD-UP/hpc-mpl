@@ -259,7 +259,7 @@ int main(int argc, char *argv[]) {
       }
     }
 
-    write_ppm(image, "mandelbrot.ppm", params);
+    write_ppm(image, "mpl_mandelbrot.ppm", params);
 
     delete[] image;
 
